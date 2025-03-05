@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+body{
+    position: relative;
+    margin: 0px;
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.celular{
+    position: absolute;
+    top: 15vh;
+    left: 40vw;
+}
+
+.tags{
+    position: absolute;
+    right: 1vw;
+}
+
+.logo{
+    margin: 20px;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px black;
+}
+
+.logo:hover{
+    border: 1px solid white;
+    box-shadow: 1px 1px 8px white;
+    height: 60px;
+    width: 60px;
+    transition: 0.5s;
+}
+
+iframe{
+    position: absolute;
+    top: 23vh;
+    left: 41vw; 
+    height: 480px;
+    width: 270px;
+    background-image: url(imagens/tela-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
+
+}
