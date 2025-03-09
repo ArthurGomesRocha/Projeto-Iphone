@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
     <title>Projeto iphone - FaceBook</title>
 </head>
 
@@ -27,14 +26,15 @@ body{
 }
 
     .iphone{
-    position: absolute;
     background-image: url(imagens/frame-iphone.png);
+    position: absolute;
     background-repeat: no-repeat;
     height: 627px;
     width: 311px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    object-fit: cover;
 }
 
 
@@ -62,16 +62,37 @@ body{
     transition: 0.5s;
 }
 
-iframe{
-
+.container{
+    position: relative;
+    background-image: url('imagens/tela-facebook.jpg'); 
+    background-size: cover; 
+    background-position: top center;
+    background-repeat: no-repeat;
+    overflow-y: scroll; 
+    height: 480px;
+    width: 270px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
+
+.tela-facebook{
+    position: absolute;
+    height: 480px;
+    width: 270px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: scroll;
+}
+
+
 
 </style>
 
 <body>
 
     <div class="iphone"></div>
-    
     
     <div class="tags">
         <a href=""><img  class="logo" src="imagens/logo-home.jpg" alt=""></a>
@@ -82,7 +103,7 @@ iframe{
         <a href="#"><img  class="logo" src="imagens/logo-youtube.jpg" alt=""></a>
     </div>
 
-    <iframe src="imagens/tela-facebook.jpg" frameborder="0" width="311px"></iframe>
+    <img src="imagens/tela-facebook.jpg" alt="Facebook" class="tela-facebook">
 
 
 </body>
