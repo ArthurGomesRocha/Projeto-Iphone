@@ -28,7 +28,7 @@ body{
 
 
 .tags{
-    position: relative;
+    position: absolute;
     right: 5px;
    
 }
@@ -51,3 +51,15 @@ body{
     transition: 0.5s;
 }
 
+iframe{
+    position: absolute;
+    background-image: url(imagens/tela-home.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 475px;
+    width: 311px;
+    left: 51.1vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+
+}

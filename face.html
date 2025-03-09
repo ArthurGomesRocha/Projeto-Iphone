@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto iphone - FaceBook</title>
+</head>
+
+<style>
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .iphone{
+    position: absolute;
+    background-image: url(imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    height: 627px;
+    width: 311px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.tags{
+    position: absolute;
+    right: 5px;
+   
+}
+
+.logo{
+    margin: 20px;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px black;
+}
+
+.logo:hover{
+    border: 1px solid white;
+    margin: 1px;
+    box-shadow: 1px 1px 8px white;
+    height: 60px;
+    width: 60px;
+    transition: 0.5s;
+}
+
+iframe{
+
+}
+
+</style>
+
+<body>
+
+    <div class="iphone"></div>
+    
+    
+    <div class="tags">
+        <a href=""><img  class="logo" src="imagens/logo-home.jpg" alt=""></a>
+        <a href="#"><img  class="logo" src="imagens/logo-github.jpg" alt=""></a>
+        <a href="#"><img  class="logo" src="imagens/logo-facebook.jpg" alt=""></a>
+        <a href="#"><img  class="logo" src="imagens/logo-instagram.jpg" alt=""></a>
+        <a href="#"><img  class="logo" src="imagens/logo-twitter.jpg" alt=""></a>
+        <a href="#"><img  class="logo" src="imagens/logo-youtube.jpg" alt=""></a>
+    </div>
+
+    <iframe src="imagens/tela-facebook.jpg" frameborder="0" width="311px"></iframe>
+
+
+</body>
+</html>
