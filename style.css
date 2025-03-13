@@ -40,26 +40,22 @@ body{
     width: 50px;
     border-radius: 50%;
     box-shadow: 1px 1px 3px black;
+    box-sizing: border-box;
 }
 
 .logo:hover{
     border: 1px solid white;
-    margin: 1px;
-    box-shadow: 1px 1px 8px white;
-    height: 60px;
-    width: 60px;
+    box-shadow: 1px 1px 8px rgb(0, 0, 0);
     transition: 0.5s;
+    transform: translate(-10px, -10px);
 }
 
 iframe{
-    position: absolute;
-    background-image: url(imagens/tela-home.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 475px;
-    width: 311px;
-    left: 51.1vw;
-    top: 50vh;
+    position: relative;
+    height: 479px;
+    width: 271px;
+    left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
 
 }
